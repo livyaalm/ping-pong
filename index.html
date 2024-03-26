@@ -33,6 +33,13 @@
                 canvasCtx.fillRect(1490,200,lineWidth, 200)
                  canvasCtx.arc( 400,300,20,0,2 *Math.PI, false)
                  canvasCtx.fill()
+
+                 canvasCtx.font = "bold 72px arial"
+                 canvasCtx.textAlign ="center"
+                 canvasCtx.textBaseline = "top"
+                 canvasCtx.fillStyle = "#01341D"
+                 canvasCtx.fillText("3", window.innerWidth / 4, 50)
+                 canvasCtx.fillText("1", window.innerWidth /4 + window.innerWidth / 2, 50)
                 }
                 setup()
                draw()
